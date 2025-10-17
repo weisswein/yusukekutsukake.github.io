@@ -31,9 +31,10 @@
       <section id="about">
         <h2><span class="dot"></span>概要</h2>
         <p>
-          非侵襲脳波（EEG）をAIで解析し、内的発話（Covert Speech）の脳活動を可視化・比較する研究に取り組んでいます。
-          eLORETA / VBMEG を用いたソース推定、Zスコア正規化、ANOVA による有意差検定などの一連の処理を、Python / MATLAB で実装しています。
-          医療・福祉領域のコミュニケーションBCI応用を視野に、<b>「人の知識・思考とAIをつなぐ」</b>開発に関心があります。
+
+          AIや信号処理などの先端技術に関心を持ち、脳波解析や生成AI、Web開発など幅広い領域に取り組んでいます。<br>
+          技術の原理を理解し、自ら実装・応用することで、人とテクノロジーをつなぐ新しい仕組みの創出を目指しています。
+      
         </p>
       </section>
 
@@ -50,7 +51,36 @@
     <section id="experience">
       <h2><span class="dot"></span>職歴・活動</h2>
       <div class="list">
-        <div class="item"><div class="time">2023.04 – 現在</div><div><span class="title">芝浦工業大学 物理実験教育補助（ティーチングアシスタント）</span><div class="desc">実験準備・運営、学生サポート、手順の標準化。</div></div></div>
+        <div class="item">
+          <div class="time">2023.09</div>
+          <div>
+            <span class="title">AI R&D Internship（ベトナム・ハノイ）｜CO-WELL Asia</span>
+            <div class="desc">
+              海外オフショア開発の現場でWebアプリケーション開発に従事。<br>
+              カメラ映像から人物をリアルタイムで認証するAIシステムを開発。バックエンドとフロントエンドの双方を担当。<br>
+              <ul>
+                <li>画像認識AI（YOLOv5）による人間検出システムの構築</li>
+                <li>FastAPI＋MongoDBによる認証履歴データベースの設計・実装</li>
+                <li>Vue.jsを用いたWebフロントエンドUIの開発</li>
+              </ul>
+              チーム内では英語・日本語を併用し、Slackによる日次進捗共有や最終成果発表を実施。<br>
+              <span class="sub">Python / FastAPI / YOLOv5 / MongoDB / Vue.js / HTML / CSS</span><br>
+              <a href="#skills" class="link">→ 関連スキルを見る</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="time">2025.02</div>
+          <div>
+            <span class="title">BIPLOGY Hackathon 2025 オーディエンス賞 受賞</span>
+            <div class="desc">
+              <b>Reaction Online：</b>参加者の感情をリアルタイムで視覚化するWebアプリを開発。<br>
+              DeepFaceを用いてカメラ映像から表情を解析し、感情をAIで推定・表示するシステムを構築。<br>
+              <span class="sub">Python / DeepFace / Flask / OpenCV / JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <div class="item"><div class="time">2025.10 – 現在</div><div><span class="title">芝浦工業大学 物理実験教育補助（ティーチングアシスタント）</span><div class="desc">実験準備・運営、学生サポート、手順の標準化。</div></div></div>
         <div class="item"><div class="time">2025.08</div><div><span class="title">Tokyo BCI Hackathon 2025 第2位</span><div class="desc">非侵襲EEGのリアルタイム可視化・情動推定PoC。</div></div></div>
         <div class="item"><div class="time">2025.05</div><div><span class="title">g.tec 「VIRTUAL BR41N.IO DESIGNERS' HACKATHON」 参加</span></div></div>
       </div>
@@ -71,11 +101,15 @@
           <div class="sub">プログラミング</div>
           <span class="kbd">Python</span><span class="kbd">MATLAB</span><span class="kbd">C#</span><span class="kbd">Unity</span>
           <div class="sub" style="margin-top:8px">ML / 信号処理</div>
+          <span class="kbd">YOLOv5</span><span class="kbd">DeepFace</span>
           <span class="kbd">MNE-Python</span><span class="kbd">EEGLAB</span><span class="kbd">scikit-learn</span><span class="kbd">TensorFlow</span>
         </div>
         <div>
           <div class="sub">解析・可視化</div>
           <span class="kbd">Z-Score</span><span class="kbd">ANOVA</span><span class="kbd">Band-pass</span><span class="kbd">eLORETA / VBMEG</span>
+          <div class="sub" style="margin-top:8px">Web開発</div>
+          <span class="kbd">FastAPI</span><span class="kbd">MongoDB</span>
+          <span class="kbd">Vue.js</span><span class="kbd">HTML</span><span class="kbd">CSS</span>
           <div class="sub" style="margin-top:8px">その他</div>
           <span class="kbd">Git / GitHub</span><span class="kbd">Nginx</span><span class="kbd">Discord API</span><span class="kbd">Stripe Webhook</span>
         </div>
@@ -85,14 +119,36 @@
     <section id="projects">
       <h2><span class="dot"></span>プロジェクト</h2>
       <div class="two-col">
-        <p><b>XOAD_BOT（Discord ユーザー情報/課金システム連携）</b><br><span class="sub">Python / SQLite / Stripe / VPS</span><br>ロール連携・XP経済・Webhook設計。運用自動化。</p>
-        <p><b>AI VTuber / Style-BERT-VITS2</b><br><span class="sub">GPU TTS / Whisper</span><br>日本語音声合成の学習・推論環境構築、PoC公開。</p>
+        <p><b>XOAD_BOT（Discord ユーザー情報/課金システム連携）</b><br><span class="sub">Python / SQLite / Stripe / VPS</span><br>ロール連携・ユーザーの行動にPoint与奪・Webhook設計。運営の自動化。</p>
+        <p><b>AI VTuber / Style-BERT-VITS2 / GPT-SoVITS/ Gemini</b><br><span class="sub">TTS / Whisper/ Gemini 2.0 Flash</span><br>日本語音声合成の学習・推論環境を構築し、約3秒の音声データからTTSモデルを生成。
+自然で個性のある音声AIの実現に向けたPoCを実施。</p>
+        <p>
+        <b>Chatbot（Global Hack Week / MLH 2024）</b><br>
+        <span class="sub">Python / discord.py / googletrans / pyocr / PIL / Replit</span><br>
+          画像内テキストをOCRで読み取り、多言語に翻訳して返答。Replit上で稼働する軽量サーバ構成を実装。<br>
+        <a href="https://replit.com/@archeologistspe/chatbot-1?v=1" target="_blank" rel="noopener">Try it on Replit</a>
+        </p>
+      <p>
+      <b>人検出Webアプリケーション(AI R&D Internship｜CO-WELL Asia)</b><br>
+      <span class="sub">YOLOv5 / FastAPI / MongoDB / Vue.js / HTML / CSS</span><br>
+      カメラ映像から人物をリアルタイム認証するWebアプリケーションを開発。<br>
+      
+      <a href="#skills" class="link">→ 関連スキルを見る</a>
+     </p>
+
+    <p>
+      <b>Flight Catcher（Global Hack Week / MLH 2024）</b><br>
+      <span class="sub">Unity / C# / JSON API / Open Data / LitJson</span><br>
+      ANAのリアルタイム航空データを用いて、3D地球上を飛行機として探索できるビジュアルゲームを開発。UnityでリアルタイムAPI連携と可視化を実現。<br>
+      <a href="https://github.com/feruram/MLH-data-set" target="_blank" rel="noopener">GitHub Repository</a>
+    </p>
       </div>
     </section>
 
     <section id="cv">
       <h2><span class="dot"></span>資料・リンク</h2>
       <ul>
+        <li><a href="https://www.facebook.com/story.php?story_fbid=688308346658009&id=100064365506399">AI R&D Internship（ベトナム・ハノイ）｜CO-WELL</a></li>
         <li><a href="./assets/NER2025_Poster.pdf">研究ポスター（PDF）</a></li>
         <li><a href="https://github.com/weisswein" target="_blank" rel="noopener">GitHub（プロジェクト一覧）</a></li>
       </ul>
